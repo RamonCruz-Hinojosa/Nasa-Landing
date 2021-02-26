@@ -1,3 +1,54 @@
 body {
-  background-color: brown;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+header {
+  width: 850px;
+  height: 450px;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/08/00/33/nature-2609647_960_720.jpg);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+h2 {
+  max-width: 270px;
+  height: 324px;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: rgb(230, 230, 230);
+  width: 850px;
+  height: 324px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+}
+
+h2 ul {
+  font-size: 15px;
+  font-weight: lighter;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-flow: column nowrap;
 }
