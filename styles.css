@@ -27,6 +27,7 @@ header {
   background-size: cover;
   background-position: center;
 }
+/* Not sure how to change the animation style to not fade into the next picture */
 
 @keyframes slideshow {
   25% {
